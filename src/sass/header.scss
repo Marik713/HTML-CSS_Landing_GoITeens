@@ -75,7 +75,8 @@ opacity: 1;
 }
 
 .mission{
-    padding-top: 375px;
+    padding-top: 305px;
+    padding-bottom: 13px;
     font-family: 'OpenSans-ExtraBold';
     font-weight: 800;
     font-size: 35px;
@@ -95,6 +96,7 @@ opacity: 1;
     width: 280px;
     height: 55px;
     margin: 0 auto;
+    letter-spacing: 1px;
     &::after {
         content:("");
         background: url(../images/header/ScrollDown.png);
@@ -147,6 +149,12 @@ opacity: 1;
     }
 }
 @media (min-width: 768px) {
+    .container {
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 0 40px;
+    }
+
     .go-it_logo {
     width: 140px;
     height: 40px;
@@ -154,14 +162,37 @@ opacity: 1;
     .baner {    
     height: 600px;
     }
+    .navigation {
+        padding-top: 26px;
+    }
+    .mission {
+    padding-top: 377px;
+    font-size: 46px;
+    padding-bottom: 16px;
+    }
 
+    .task{
+    font-size: 27px;
+    line-height: 32px;
+    width: 445px;
+    height: 65px;
+    &::after {
+        left: 215px;
+        top: 95px;
+    }
+    
 }
+
 @media (min-width: 769px) {
     .baner {
     background-image: url(../images/header/imgdesc.jpg);
     }
 }
 @media (min-width: 1298px) {
+    .container {
+        min-width: 1298px;
+        padding: 0 50px;
+    }
     .baner {
         height: 967px;
     }
@@ -173,6 +204,7 @@ opacity: 1;
         justify-content: space-between;
         flex-wrap: nowrap;
         align-items: center;
+        padding-top: 12px;
     }
 
     .navigation-menu {
@@ -181,13 +213,17 @@ opacity: 1;
     align-items: baseline;
     width: 1000px;
     margin: 0;
+    padding: 0;
     }
     .navigation-menu__link {
     font-size: 18px;
     }
     .mission {
+    text-align: left;
     padding-top: 670px;
     }
-    
+    .task {
 
+    }
+    }
 }

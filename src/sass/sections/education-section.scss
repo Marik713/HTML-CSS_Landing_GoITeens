@@ -1,1 +1,185 @@
+.wrapper {
+    width: 100%;
+    max-width: 281px;
+    margin: 0 auto;
+    font-family: 'OpenSans-Bold';
+    font-size: 20px;
+    font-weight: 700;
+    color: #272727;
+   
+}
 
+.lesson {
+    margin-bottom: 40px;
+}
+
+.wrapper .lesson::before {
+    display: block;
+    content: ' ';
+    background: #e9ac38 url("/images/icons/title_icons/title icon 1/title-icon-1-24px.svg") no-repeat center ;
+    width: 31px;
+    height: 31px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.box_one::before {
+    content: '';
+    display: block;
+    background: #f8e0d7 url("/images/icons/education-section-icons/internet.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box2::before {
+    content: '';
+    display: block;
+    background: #f8e0d7 url("/images/icons/education-section-icons/support.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box3::before {
+    content: '';
+    display: block;
+    background: #e3dcf8 url("/images/icons/education-section-icons/idea.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box4::before {
+    content: '';
+    display: block;
+    background: #dfeeec url("/images/icons/education-section-icons/money.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+.box5::before {
+    content: '';
+    display: block;
+    background: #e3dcf8 url("/images/icons/education-section-icons/idea.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box6::before {
+    content: '';
+    display: block;
+    background: #f8e0d7 url("/images/icons/education-section-icons/file.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box7::before {
+    content: '';
+    display: block;
+    background: #fbeed7 url("/images/icons/education-section-icons/arrow.svg");
+    width: 53px;
+    height: 53px;
+    // border: solid 1 px #e9ac38;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.box_one {
+    margin-bottom: 20px;
+}
+
+.box p {
+     width: 200px;
+}
+
+
+
+@media (min-width:768px)
+ { 
+    .wrapper {
+        width: 100%;
+        max-width: 689px;
+        margin: 0 auto;
+        font-family: 'OpenSans-Bold';
+        font-size: 20px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+    .wrapper1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 620px;
+        margin: 0 auto;
+        margin-left: 44px;
+        font-family: 'OpenSans-Bold';
+        font-size: 14px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+    .teaching {
+        width: 300px;
+        // max-width: 324px;
+    }
+
+
+
+}
+
+@media (min-width:1298px)
+ { 
+    .wrapper {
+        width: 100%;
+        max-width: 1234px;
+        margin: 0 auto;
+        font-family: 'OpenSans-Bold';
+        font-size: 20px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+    .wrapper1 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1234px;
+        margin: 0 auto;
+        font-family: 'OpenSans-Bold';
+        font-size: 14px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+    .teaching {
+        width: 300px;
+        // max-width: 324px;
+    }
+
+
+
+}

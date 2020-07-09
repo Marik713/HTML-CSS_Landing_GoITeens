@@ -1,6 +1,7 @@
 .box {
     width: 100%;
     position: relative;
+    padding-bottom: 60px;
 }
 
 .structure-title {
@@ -128,6 +129,7 @@
 @media (min-width: 768px) {
     .box {
         min-width: 620px;
+        padding-bottom: 70px;
     }
     .structure-title {
         font-size: 33px;
@@ -186,6 +188,7 @@
 @media (min-width: 1298px) {
     .box {
         min-width: 1298px;
+        padding-bottom: 110px;
     }
     .structure-title {
         font-size: 33px;

@@ -9,6 +9,8 @@
    
 }
 
+
+
 .lesson {
     margin-bottom: 40px;
 }
@@ -24,6 +26,8 @@
     position: absolute;
     
 }
+
+
 
 .box_one::before {
     content: '';
@@ -126,6 +130,7 @@
 }
 
 .box p {
+    font-family: $secondary-font-stack;
      width: 200px;
 }
 

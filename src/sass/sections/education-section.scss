@@ -1,1 +1,273 @@
+.structure-title::before {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    content: '';
+    background: #fcae26 url("../images/icons/title_icons/title icon 2/title-icon-2-24px.svg") no-repeat center;
+    background-size: 16px;
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
+// .teaching .structure-title {
+//     display: inline-block;
+//     height: 30px;
+//     width: 30px;
+//     content: '';
+//     background: #fcae26 url("../images/icons/title_icons/title icon 2/title-icon-2-24px.svg") no-repeat center;
+//     background-size: 16px;
+//     background-position: 50%;
+//     border-radius: 50%;
+//     vertical-align: middle;
+//     margin-right: 10px;
+// }
+
+
+.metod {
+    list-style: none;
+    
+}
+
+.metod__list {
+    font-family: $main-font-stack;
+    font-size: 16px;
+    color: #5f5f5f;
+    width: 276px;
+    margin-bottom: 30px;
+    text-align: left;
+    position: relative;
+    
+}
+
+// .metod__list--internet::before, .metod__list--support::before, .metod__list--victory::before, .metod__list--money::before,
+// .metod__list--idea::before, .metod__list--file::before, .metod__list--arrow::before {
+
+//     display: block;
+//     height: 76px;
+//     width: 76px;
+//     content: '';
+//     background-position: 50%;
+//     border-radius: 50%;
+//     vertical-align: middle;
+//     margin-right: 10px;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: 36px;
+//     margin-bottom: 20px;
+    
+// }
+
+.metod__list--internet {
+    fill: red;
+     width: 34px;
+     height: 34px;
+     
+
+}
+
+.metod__list--victory {
+    fill: #fd6c39;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+}
+
+.metod__list--internet::before {
+    display: block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px;
+    background-color: green;
+    // position: relative;
+}
+
+.metod__list--internet::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content:  '';
+   background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px;
+} 
+
+.metod__list--support::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #f8e0d7 url("../images/icons/education-section-icons/sprite.svg#icon-internet1");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px
+}
+
+.metod__list--victory::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #e3dcf8 url("../images/icons/education-section-icons/3.svg");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px
+}
+
+.metod__list--money::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #dfeeec url("../images/icons/education-section-icons/money.svg");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px
+}
+
+.metod__list--idea::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #e3dcf8 url("../images/icons/education-section-icons/idea.svg");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px
+}
+
+.metod__list--file::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #f8e0d7 url("../images/icons/education-section-icons/file.svg");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px
+}
+
+.metod__list--arrow::before {
+    display: inline-block;
+    height: 76px;
+    width: 76px;
+    content: '';
+    background: #fbeed7 url("../images/icons/education-section-icons/arrow.svg");
+    background-position: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+@media (min-width:768px)
+ { 
+
+   .metod {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 620px;
+        margin: 0 auto;
+        font-family: 'OpenSans-Bold';
+        font-size: 14px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+    .metod__list {
+        font-family: $main-font-stack;
+        font-size: 16px;
+        color: #5f5f5f;
+        width: 276px;
+        margin-bottom: 30px;
+    }
+
+
+
+}
+
+
+@media (min-width:1298px)
+ { 
+ 
+    .teaching {
+        background-color: #fafafa;
+    }
+
+    .metod {
+        display: flex;
+        // justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1234px;
+        margin: 0 auto;
+        // margin-left: 144px;
+        font-family: 'OpenSans-Bold';
+        font-size: 14px;
+        font-weight: 700;
+        color: #272727;
+       
+    }
+
+
+    .metod__list {
+        font-family: $main-font-stack;
+        font-size: 16px;
+        color: #5f5f5f;
+        width: 276px;
+        margin-bottom: 70px;
+        margin-right: 33px;
+    }
+
+
+
+}

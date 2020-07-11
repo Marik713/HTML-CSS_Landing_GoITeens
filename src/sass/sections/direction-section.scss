@@ -146,6 +146,16 @@
   position: relative;
   top: -25px;
 }
+
+.icon-right-arrow {
+  fill: #fcae26;
+  width: 19px;
+  height: 13px;
+}
+
+.development-list__item:hover .icon-right-arrow {
+  fill: #fff;
+}
 .development-list__item:hover {
   background-color: $base-section-color;
   cursor: pointer;
@@ -268,6 +278,10 @@
     flex-basis: 283px;
     width: 310px;
     height: 300px;
+  }
+
+  .development-list__item:hover .icon-right-arrow {
+    transform: scaleX(2.1);
   }
 
   @media (min-width: 769px) {

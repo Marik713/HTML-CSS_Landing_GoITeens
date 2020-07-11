@@ -37,6 +37,7 @@
     width: 276px;
     margin-bottom: 30px;
     text-align: left;
+    position: relative;
     
 }
 
@@ -87,7 +88,7 @@
     background-size: 36px;
     margin-bottom: 20px;
     background-color: green;
-    position: relative;
+    // position: relative;
 }
 
 .metod__list--internet::before {

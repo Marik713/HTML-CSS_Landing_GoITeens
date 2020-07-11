@@ -1,19 +1,14 @@
 .direction-section {
   width: 100%;
+  max-width: 767px;
   margin: 0px auto;
-  margin-top: 35px;
+  padding: 34px 0px 54px;
 }
-
-.container {
- 
-  margin: 0px auto;
-  width: 100%;
+.about {
+  padding: 0 20px;
 }
-
 .trend {
-  max-width: 280px;
-  width: 100%;
-  margin-bottom: 44px;
+  margin-bottom: 42px;
   padding: 0px;
 }
 
@@ -24,16 +19,17 @@
 }
 
 .trend-text:before {
-  content: ' ';
+  content: '';
   display: block;
-  width: 16px;
+  width: 20px;
   height: 16px;
-  margin: 40px auto;
-  background-image: url(../images/direction-section/quote.svg);
+  background: url(../images/direction-section/quote.svg) no-repeat center;
+  background-size: contain;
+  margin-bottom: 15px;
 }
 
 .trend-text__citation {
-  margin: 0 auto 25px;
+  margin: 0 0 25px;
   text-align: left;
   font-family: $main-font-stack;
   font-size: 14px;
@@ -41,12 +37,19 @@
   //   color: $title-sub-color;
 }
 
+.trend-text__classroom {
+  width: 280px;
+  height: 320px;
+  background: url(../images/direction-section/classroom_mobile.png);
+  background-position: center;
+}
+
 .notice {
-  color: #7550de;
+  background-color: #7550de;
   border-radius: 5px;
   width: 100%;
   margin: 0 auto 60px;
-
+  padding: 25px;
 }
 
 .notice__text::before {
@@ -54,21 +57,28 @@
   content: '';
   width: 60px;
   height: 2px;
-  margin: 40px auto;
+  margin: 0 auto 18px;
   // background: var(--underline-color);
-  background: $primery-dark-color;
+  background: $base-section-color;
 }
 .notice__text {
-  max-width: 280px;
-  margin: 0 auto 90px;
   text-align: center;
-  font-size: 15px;
-  font-family: $main-font-stack;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
   color: $primary-white-color;
 }
 
 .development {
   display: inline-block;
+
+  .structure-title::before {
+    background: #fcae26
+      url('../images/icons/title_icons/title icon 1/title-icon-1-24px.svg')
+      no-repeat center;
+    background-size: 16px;
+    background-position: 50%;
+  }
 }
 
 .development-header::before {
@@ -87,7 +97,6 @@
 .development-header__text {
   font-family: 'OpenSans-Bold';
   font-size: 20px;
-f
 }
 
 .development-list {
@@ -101,11 +110,241 @@ f
 }
 .development-list__item {
   flex-basis: 280px;
-  padding-left: 45px;
+  padding: 24px 45px;
   display: flex;
-  margin-bottom: 110px;
   background-color: #fafafa;
+  border-radius: 4px;
+
+  //   &:not(:last-child) {
+  //     margin-bottom: 16px;
+  //   }
 }
-.development-list__item:nth-child(-n + 4) {
-  margin-bottom: 110px;
+.development-list__practice {
+  font-family: $secondary-font-stack;
+  font-size: 25px;
+  line-height: 25px;
+  color: $secondary-dark-color;
+  margin-bottom: 30px;
+}
+.development-list__skill {
+  font-size: 16px;
+  line-height: 20px;
+  color: $secondary-dark-color;
+  margin-bottom: 26px;
+}
+.development-list__age-figure {
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-size: 30px;
+  line-height: 1.2;
+  color: $base-section-color;
+}
+.development-list__age-text {
+  font-family: $main-font-stack;
+  font-size: 13px;
+  line-height: 22px;
+  text-decoration: underline;
+  position: relative;
+  top: -25px;
+}
+.development-list__item:hover {
+  background-color: $base-section-color;
+  cursor: pointer;
+}
+
+.development-list__item:hover .development-list__skill {
+  color: $primary-white-color;
+}
+
+.development-list__item:hover .development-list__age-figure {
+  color: $primary-white-color;
+}
+
+@media (min-width: 321px) {
+  .trend-text__classroom {
+    background: url(../images/direction-section/classroom_tablet.png);
+    background-position: center;
+    height: 320px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 559px) {
+  .development-list__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+}
+
+// @media (max-width: 767px) {
+//   .development-list__item:not(:last-child) {
+//     margin-bottom: 16px;
+//   }
+// }
+
+@media (min-width: 768px) {
+  .direction-section {
+    max-width: 1298px;
+    margin: 0 auto;
+  }
+
+  .trend {
+    margin-bottom: 70px;
+    padding: 0px;
+  }
+
+  .about {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 75px;
+  }
+
+  .trend-text {
+    text-align: left;
+    width: 620px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .trend-text:before {
+    content: '';
+    display: block;
+    width: 25px;
+    height: 20px;
+    //   background: url(../images/direction-section/quote.svg) no-repeat center;
+    background-size: contain;
+    margin-bottom: 15px;
+    position: relative;
+    top: 6px;
+    left: -35px;
+  }
+  .trend-text__citation {
+    margin: 0 0 25px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .trend-text__classroom {
+    width: 620px;
+    background: url(../images/direction-section/classroom_tablet.png);
+  }
+
+  .notice {
+    padding-bottom: 30px;
+    position: relative;
+    margin: 0 auto 34px;
+  }
+
+  .notice__text::before {
+    width: 2px;
+    height: 100px;
+    position: absolute;
+    left: 53px;
+  }
+  .notice__text {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    padding: 8px 0 0 52px;
+  }
+
+  .development-header .structure-title {
+    padding: 0;
+  }
+
+  .development-list__practice {
+    font-size: 30px;
+    line-height: 25px;
+  }
+  .development-list__age-figure {
+    font-size: 40px;
+    line-height: 22px;
+    &::after {
+      //   width: 40px;
+      //   height: 15px;
+      padding-top: 20px;
+    }
+  }
+  .development-list__item {
+    flex-basis: 283px;
+    width: 310px;
+    height: 300px;
+  }
+
+  @media (min-width: 769px) {
+    .trend-text__classroom {
+      background: url(../images/direction-section/classroom_laptop.png);
+      background-position: center;
+      margin: 0 auto;
+    }
+  }
+
+  @media (min-width: 1003px) {
+    .trend-text__classroom {
+      background: url(../images/direction-section/classroom_laptop.png);
+      background-position: center;
+      margin: 0 auto;
+    }
+    .notice__text::before {
+      height: 65px;
+    }
+  }
+
+  @media (min-width: 1298px) {
+    .direction-section {
+      max-width: 1298px;
+      padding-top: 120px;
+    }
+    .trend {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 112px;
+    }
+
+    .trend-text {
+      width: 535px;
+      padding-left: 55px;
+      padding-top: 5px;
+    }
+
+    .trend-text__citation {
+      font-size: 20px;
+      line-height: 35px;
+      letter-spacing: 1.01px;
+      margin: 0;
+    }
+
+    .trend-text__citation--two {
+      margin-top: -30px;
+    }
+
+    .trend-text__classroom {
+      background: url(../images/direction-section/classroom_laptop.png);
+      width: 650px;
+      height: 400px;
+    }
+
+    .trend-text:before {
+      margin: 0px;
+      top: 71px;
+      left: -42px;
+    }
+    .notice__text {
+      font-size: 25px;
+      line-height: 35px;
+    }
+    .notice {
+      padding: 57px 174px;
+      line-height: 54px;
+      margin: 0 auto;
+    }
+
+    .development-list__item {
+      flex-basis: 310px;
+    }
+    .notice__text::before {
+      height: 97px;
+      position: absolute;
+      left: 202px;
+    }
+  }
 }

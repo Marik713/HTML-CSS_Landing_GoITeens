@@ -149,13 +149,16 @@
     .components {
         display: flex;
         flex-wrap: wrap;
-        list-style: none;
         justify-content: center;
         margin-right: -20px;
     }
     .components__list {
         width: 300px;
+<<<<<<< HEAD
         height: 293px;
+=======
+        height: 296px;
+>>>>>>> footer
         margin-bottom: 20px;
         margin-left: 0;
         &:not(:last-child) {
@@ -171,8 +174,13 @@
     .components__info {
         width: 260px;
         height: 257px;
+<<<<<<< HEAD
         top: 18px;
         left: 20px;
+=======
+        top: 19px;
+        left: 19px;
+>>>>>>> footer
     }
     .components__name {
         font-size: 30px;
@@ -202,7 +210,7 @@
     .structure-title {
         font-size: 33px;
         line-height: 78px;
-        margin-top: 112px;
+        margin-top: 60px;
         letter-spacing: -0.5;
         text-align: left;
     }
@@ -211,7 +219,11 @@
         justify-content: space-between;
     }
     .components__list {
+<<<<<<< HEAD
         width: 300px;
+=======
+        width: 298px;
+>>>>>>> footer
         height: 293px;
         margin-right: 30px;
     }
@@ -219,10 +231,17 @@
         margin-bottom: 0;
     }
     .components__info {
+<<<<<<< HEAD
         width: 262px;
         height: 257px;
         top: 18px;
         left: 19px;
+=======
+        width: 264px;
+        height: 270px;
+        top: 12px;
+        left: 16px;
+>>>>>>> footer
     }
     .components__program {
         font-size: 18px;

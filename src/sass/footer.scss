@@ -54,7 +54,8 @@
             margin-bottom: 33px;
         }
         
-        .contact__btn:hover {
+        .contact__btn:hover,
+        .contact__btn:focus {
             background-color: #f39313;
         }
         
@@ -110,7 +111,7 @@
         
         .toTop.show {
             opacity: 1;
-            pointer-events: default;
+            pointer-events: auto;
         }
         
         @media (min-width: 768px) {

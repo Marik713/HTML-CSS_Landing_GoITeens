@@ -1,364 +1,338 @@
 .direction-section {
-  width: 100%;
-  max-width: 767px;
-  margin: 0px auto;
-  padding: 34px 0px 54px;
+    width: 100%;
+    max-width: 767px;
+    margin: 0px auto;
+    padding: 34px 0px 54px;
 }
+
 .about {
-  padding: 0 20px;
+    padding: 0 20px;
 }
+
 .trend {
-  margin-bottom: 42px;
-  padding: 0px;
+    margin-bottom: 42px;
+    padding: 0px;
 }
 
 .trend-text {
-  text-align: left;
-  width: 100%;
-  padding: 0px;
+    text-align: left;
+    width: 100%;
+    padding: 0px;
 }
 
 .trend-text:before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 16px;
-  background: url(../images/direction-section/quote.svg) no-repeat center;
-  background-size: contain;
-  margin-bottom: 15px;
+    content: '';
+    display: block;
+    width: 19px;
+    height: 14px;
+    background: url(../images/direction-section/quote-direction-section.png) no-repeat center;
+    background-size: contain;
+    margin-bottom: 15px;
 }
 
 .trend-text__citation {
-  margin: 0 0 25px;
-  text-align: left;
-  font-family: $main-font-stack;
-  font-size: 14px;
-  color: $primery-dark-color;
-  //   color: $title-sub-color;
+    margin: 0 0 25px;
+    text-align: left;
+    font-family: $main-font-stack;
+    font-size: 14px;
+    color: $primery-dark-color;
 }
 
 .trend-text__classroom {
-  width: 280px;
-  height: 320px;
-  background: url(../images/direction-section/classroom_mobile.png);
-  background-position: center;
+    width: 280px;
+    height: 320px;
+    background: url(../images/direction-section/classroom_mobile.png);
+    background-position: center;
 }
 
 .notice {
-  background-color: #7550de;
-  border-radius: 5px;
-  width: 100%;
-  margin: 0 auto 60px;
-  padding: 25px;
+    background-color: #7550de;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto 58px;
+    padding: 25px;
 }
 
 .notice__text::before {
-  display: block;
-  content: '';
-  width: 60px;
-  height: 2px;
-  margin: 0 auto 18px;
-  // background: var(--underline-color);
-  background: $base-section-color;
+    display: block;
+    content: '';
+    width: 60px;
+    height: 2px;
+    margin: 0 auto 18px;
+    background: $base-section-color;
 }
+
 .notice__text {
-  text-align: center;
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 1px;
-  color: $primary-white-color;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: $primary-white-color;
 }
 
 .development {
-  display: inline-block;
-
-  .structure-title::before {
-    background: #fcae26
-      url('../images/icons/title_icons/title icon 1/title-icon-1-24px.svg')
-      no-repeat center;
-    background-size: 16px;
-    background-position: 50%;
-  }
+    display: inline-block;
+    .structure-title::before {
+        background: #fcae26 url('../images/icons/title_icons/title icon 1/title-icon-1-24px.svg') no-repeat center;
+        background-size: 16px;
+        background-position: 50%;
+    }
 }
 
 .development-header::before {
-  display: inline-block;
-  background: url(../images/);
-  width: 30px;
-  height: 30px;
+    display: inline-block;
+    background: url(../images/);
+    width: 30px;
+    height: 30px;
 }
 
 .development-header {
-  width: 100%;
-  margin-bottom: 40px;
-  padding: 0px;
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 0px;
 }
 
 .development-header__text {
-  font-family: 'OpenSans-Bold';
-  font-size: 20px;
+    font-family: 'OpenSans-Bold';
+    font-size: 20px;
 }
 
 .development-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
-.development-list__item {
-  flex-basis: 280px;
-  padding: 24px 45px;
-  display: flex;
-  background-color: #fafafa;
-  border-radius: 4px;
 
-  //   &:not(:last-child) {
-  //     margin-bottom: 16px;
-  //   }
+.development-list__item {
+    flex-basis: 281px;
+    padding: 24px 45px;
+    display: flex;
+    background-color: #fafafa;
+    border-radius: 4px;
+    margin-bottom: 15px;
 }
+
 .development-list__practice {
-  font-family: $secondary-font-stack;
-  font-size: 25px;
-  line-height: 25px;
-  color: $secondary-dark-color;
-  margin-bottom: 30px;
+    font-family: $secondary-font-stack;
+    font-size: 25px;
+    line-height: 25px;
+    color: $secondary-dark-color;
+    margin-bottom: 30px;
 }
+
 .development-list__skill {
-  font-size: 16px;
-  line-height: 20px;
-  color: $secondary-dark-color;
-  margin-bottom: 26px;
+    font-size: 16px;
+    line-height: 20px;
+    color: $secondary-dark-color;
+    margin-bottom: 26px;
 }
+
 .development-list__age-figure {
-  font-family: 'OpenSans-Bold', sans-serif;
-  font-size: 30px;
-  line-height: 1.2;
-  color: $base-section-color;
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    color: $base-section-color;
 }
+
 .development-list__age-text {
-  font-family: $main-font-stack;
-  font-size: 13px;
-  line-height: 22px;
-  text-decoration: underline;
-  position: relative;
-  top: -25px;
+    font-family: $main-font-stack;
+    font-size: 13px;
+    line-height: 22px;
+    text-decoration: underline;
+    position: relative;
+    top: -25px;
 }
 
 .icon-right-arrow {
-  fill: #fcae26;
-  width: 19px;
-  height: 13px;
+    fill: #fcae26;
+    width: 19px;
+    height: 13px;
 }
 
 .development-list__item:hover .icon-right-arrow {
-  fill: #fff;
+    fill: #fff;
 }
+
 .development-list__item:hover {
-  background-color: $base-section-color;
-  cursor: pointer;
+    background-color: $base-section-color;
+    cursor: pointer;
 }
 
 .development-list__item:hover .development-list__skill {
-  color: $primary-white-color;
+    color: $primary-white-color;
 }
 
 .development-list__item:hover .development-list__age-figure {
-  color: $primary-white-color;
+    color: $primary-white-color;
 }
 
 @media (min-width: 321px) {
-  .trend-text__classroom {
-    background: url(../images/direction-section/classroom_tablet.png);
-    background-position: center;
-    height: 320px;
-    width: 100%;
-  }
+    .trend-text__classroom {
+        background: url(../images/direction-section/classroom_tablet.png);
+        background-position: center;
+        height: 320px;
+        width: 100%;
+    }
 }
-
-@media (max-width: 559px) {
-  .development-list__item:not(:last-child) {
-    margin-bottom: 16px;
-  }
-}
-
-// @media (max-width: 767px) {
-//   .development-list__item:not(:last-child) {
-//     margin-bottom: 16px;
-//   }
-// }
 
 @media (min-width: 768px) {
-  .direction-section {
-    max-width: 1298px;
-    margin: 0 auto;
-  }
-
-  .trend {
-    margin-bottom: 70px;
-    padding: 0px;
-  }
-
-  .about {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 75px;
-  }
-
-  .trend-text {
-    text-align: left;
-    width: 620px;
-    padding: 0px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-  }
-
-  .trend-text:before {
-    content: '';
-    display: block;
-    width: 25px;
-    height: 20px;
-    //   background: url(../images/direction-section/quote.svg) no-repeat center;
-    background-size: contain;
-    margin-bottom: 15px;
-    position: relative;
-    top: 6px;
-    left: -35px;
-  }
-  .trend-text__citation {
-    margin: 0 0 25px;
-    text-align: left;
-    font-size: 18px;
-  }
-  .trend-text__classroom {
-    width: 620px;
-    background: url(../images/direction-section/classroom_tablet.png);
-  }
-
-  .notice {
-    padding-bottom: 30px;
-    position: relative;
-    margin: 0 auto 34px;
-  }
-
-  .notice__text::before {
-    width: 2px;
-    height: 100px;
-    position: absolute;
-    left: 53px;
-  }
-  .notice__text {
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;
-    padding: 8px 0 0 52px;
-  }
-
-  .development-header .structure-title {
-    padding: 0;
-  }
-
-  .development-list__practice {
-    font-size: 30px;
-    line-height: 25px;
-  }
-  .development-list__age-figure {
-    font-size: 40px;
-    line-height: 22px;
-    &::after {
-      //   width: 40px;
-      //   height: 15px;
-      padding-top: 20px;
-    }
-  }
-  .development-list__item {
-    flex-basis: 283px;
-    width: 310px;
-    height: 300px;
-  }
-
-  .development-list__item:hover .icon-right-arrow {
-    transform: scaleX(2.1);
-  }
-
-  @media (min-width: 769px) {
-    .trend-text__classroom {
-      background: url(../images/direction-section/classroom_laptop.png);
-      background-position: center;
-      margin: 0 auto;
-    }
-  }
-
-  @media (min-width: 1003px) {
-    .trend-text__classroom {
-      background: url(../images/direction-section/classroom_laptop.png);
-      background-position: center;
-      margin: 0 auto;
-    }
-    .notice__text::before {
-      height: 65px;
-    }
-  }
-
-  @media (min-width: 1298px) {
     .direction-section {
-      max-width: 1298px;
-      padding-top: 120px;
+        max-width: 1298px;
+        margin: 0 auto;
+        padding-top: 42px;
     }
     .trend {
-      display: flex;
-      flex-direction: row-reverse;
-      margin-bottom: 112px;
+        margin-bottom: 70px;
+        padding: 0px;
     }
-
+    .about {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 75px;
+    }
     .trend-text {
-      width: 535px;
-      padding-left: 55px;
-      padding-top: 5px;
+        text-align: left;
+        width: 620px;
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
     }
-
-    .trend-text__citation {
-      font-size: 20px;
-      line-height: 35px;
-      letter-spacing: 1.01px;
-      margin: 0;
-    }
-
-    .trend-text__citation--two {
-      margin-top: -30px;
-    }
-
-    .trend-text__classroom {
-      background: url(../images/direction-section/classroom_laptop.png);
-      width: 650px;
-      height: 400px;
-    }
-
     .trend-text:before {
-      margin: 0px;
-      top: 71px;
-      left: -42px;
+        width: 26px;
+        height: 20px;
+        position: relative;
+        top: 6px;
+        left: -35px;
     }
-    .notice__text {
-      font-size: 25px;
-      line-height: 35px;
+    .trend-text__citation {
+        margin: 0 0 25px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .trend-text__classroom {
+        width: 620px;
+        background: url(../images/direction-section/classroom_tablet.png);
     }
     .notice {
-      padding: 57px 174px;
-      line-height: 54px;
-      margin: 0 auto;
-    }
-
-    .development-list__item {
-      flex-basis: 310px;
+        padding-bottom: 30px;
+        position: relative;
+        margin: 0 auto 34px;
     }
     .notice__text::before {
-      height: 97px;
-      position: absolute;
-      left: 202px;
+        width: 2px;
+        height: 100px;
+        position: absolute;
+        left: 53px;
     }
-  }
+    .notice__text {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        padding: 8px 0 0 52px;
+    }
+    .development-header .structure-title {
+        padding: 0;
+    }
+    .development-list__practice {
+        font-size: 30px;
+        line-height: 25px;
+    }
+    .development-list__age-figure {
+        font-size: 40px;
+        line-height: 22px;
+        &::after {
+            padding-top: 20px;
+        }
+    }
+    .development-list__item {
+        flex-basis: 309px;
+        margin-bottom: 0px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .development-list__item:hover .icon-right-arrow {
+        transform: scaleX(2.1);
+        margin-left: 5px;
+    }
+    @media (min-width: 769px) {
+        .trend-text__classroom {
+            background: url(../images/direction-section/classroom_laptop.png);
+            background-position: center;
+            margin: 0 auto;
+        }
+    }
+    @media (min-width: 1003px) {
+        .trend-text__classroom {
+            background: url(../images/direction-section/classroom_laptop.png);
+            background-position: center;
+            margin: 0 auto;
+        }
+        .notice__text::before {
+            height: 65px;
+        }
+    }
+    @media (min-width: 1298px) {
+        .direction-section {
+            max-width: 1298px;
+            padding-top: 117px;
+        }
+        .about {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .trend {
+            display: flex;
+            flex-direction: row-reverse;
+            margin-bottom: 112px;
+        }
+        .trend-text {
+            width: 535px;
+            padding-left: 95px;
+            padding-top: 5px;
+        }
+        .trend-text__citation {
+            font-size: 20px;
+            line-height: 35px;
+            letter-spacing: 1.01px;
+            margin: 0;
+        }
+        .trend-text__citation--two {
+            margin-top: -30px;
+        }
+        .trend-text__classroom {
+            background: url(../images/direction-section/classroom_laptop.png);
+            width: 650px;
+            height: 400px;
+        }
+        .trend-text:before {
+            margin: 0px 0px 0px 12px;
+            top: 71px;
+            left: -42px;
+        }
+        .notice__text {
+            font-size: 25px;
+            line-height: 35px;
+        }
+        .notice {
+            padding: 57px 174px;
+            line-height: 54px;
+            margin: 0 auto;
+        }
+        .development-list__item {
+            flex-basis: 314px;
+        }
+        .notice__text::before {
+            height: 97px;
+            position: absolute;
+            left: 202px;
+        }
+        .icon-right-arrow {
+            margin-top: 24px;
+        }
+    }
 }

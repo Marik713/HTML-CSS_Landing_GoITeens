@@ -32,7 +32,6 @@ $(document).ready(function() {
 
     $(window).scroll(() => {
         var windowTop = $(window).scrollTop();
-        console.log(windowTop);
         windowTop > 100 ? $('.toTop').addClass('show') : $('.toTop').removeClass('show');
     });
 
